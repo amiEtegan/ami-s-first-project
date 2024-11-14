@@ -1,0 +1,12 @@
+# Write requirements to a file
+requirements = """
+streamlit
+geopandas
+folium
+rasterio
+streamlit-folium
+"""
+
+# Save the requirements to a file
+with open("/content/requirements.txt", "w") as file:
+    file.write(requirements)
